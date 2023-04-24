@@ -1,0 +1,21 @@
+Constructor
+---------------
+  Constructor is a special type of member method it can be used to initialize the members of aclass at the time of object creation.
+
+Rules of Contructors:
+--------------------------
+1. The constructor name should be class name.
+2. The constructor doesn't return any value,eventhough it doesn't return any value dont use void.
+3. It should be executed automatically at the time of object creation.
+4. Constructor will take arguments also.
+
+Types of Constructors:
+-----------------------
+1.Default Constructor - no arguments
+2.Parameterised Constructor - arguments
+
+ this:
+----------
+this is a generic object which is used to do the following:
+1. It is used to refer the currently executing Object.
+2. It is used to differenciate the local and global variables both are have the same name then use this object.
